@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Interactive Coloring Concept</title>
-		<meta name="description" content="A fun interactive coloring concept for changing colors on a mockup website" />
-		<meta name="keywords" content="coloring, drag and drop, svg, material design, mockup, website" />
-		<meta name="author" content="Codrops" />
-		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<script src="js/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<div class="container">
-			<header class="codrops-header">
-				<div class="codrops-links">
-					<a class="codrops-icon codrops-icon--prev" href="http://tympanus.net/Development/AnimatedGridLayout/" title="Previous Demo"><span>Previous Demo</span></a>
-					<a class="codrops-icon codrops-icon--drop" href="http://tympanus.net/codrops/?p=23913" title="Back to the article"><span>Back to the Codrops article</span></a>
-				</div>
-				<h1>Interactive Coloring Concept <span>A fun drag &amp; drop experiment</span></h1>
-			</header>
-			<div class="content">
-				<div class="mockup-browser">
-					<header class="mockup-header mockup-section--dark paint-area">
-						<div class="mockup-content mockup-grid mockup-grid--spread">
-							<span class="mockup-logo paint-area paint-area--text">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interactive Coloring Concept</title>
+    <meta name="description" content="A fun interactive coloring concept for changing colors on a mockup website" />
+    <meta name="keywords" content="coloring, drag and drop, svg, material design, mockup, website" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="codrops-header">
+            <div class="codrops-links">
+                <a class="codrops-icon codrops-icon--prev" href="http://tympanus.net/Development/AnimatedGridLayout/" title="Previous Demo"><span>Previous Demo</span></a>
+                <a class="codrops-icon codrops-icon--drop" href="http://tympanus.net/codrops/?p=23913" title="Back to the article"><span>Back to the Codrops article</span></a>
+            </div>
+            <h1>Interactive Coloring Concept <span>A fun drag &amp; drop experiment</span></h1>
+        </header>
+        <div class="content">
+            <div class="mockup-browser">
+                <header class="mockup-header mockup-section--dark paint-area">
+                    <div class="mockup-content mockup-grid mockup-grid--spread">
+                        <span class="mockup-logo paint-area paint-area--text">
 								<i class="fa fa-umbrella"></i><span>Column Spring</span>
-							</span>
-							<nav class="mockup-nav paint-area paint-area--text">
-								<span>About</span>
-								<span>Solutions</span>
-								<span>Pricing</span>
-								<span>Contact</span>
-							</nav>
-						</div>
-					</header>
-					<section class="mockup-section paint-area">
-						<div class="mockup-content mockup-grid">
-							<div class="mockup-grid__item mockup-width--half">
-								<h1 class="mockup-heading mockup-heading--large paint-area paint-area--text">We help tell your brand's story <span class="mockup-heading__subline">The most efficient toolset for businesses</span></h3>
+                        </span>
+                        <nav class="mockup-nav paint-area paint-area--text">
+                            <span>About</span>
+                            <span>Solutions</span>
+                            <span>Pricing</span>
+                            <span>Contact</span>
+                        </nav>
+                    </div>
+                </header>
+                <section class="mockup-section paint-area">
+                    <div class="mockup-content mockup-grid">
+                        <div class="mockup-grid__item mockup-width--half">
+                            <h1 class="mockup-heading mockup-heading--large paint-area paint-area--text">We help tell your brand's story <span class="mockup-heading__subline">The most efficient toolset for businesses</span></h3>
 								<button class="mockup-button paint-area"><span>Discover more</span> <i class="fa fa-chevron-right"></i></button>
 							</div>
 							<figure class="mockup-grid__item mockup-width--half">
@@ -209,15 +211,32 @@
 				</div><!-- /mockup-browser -->
 			</div><!-- /content -->
 			<div class="customizer">
+				<style>
+					.color-1 { background: #A8C545; color: #A8C545;}
+					.color-2 { background: #fff; color: #fff; }
+					.color-3 { background: #DFD3B6; color: #DFD3B6; }
+					.color-4 { background: #0092b2; color: #0092b2; }
+					.color-5 { background: #C1D5C0; color: #C1D5C0; }
+					.color-6 { background: #776045; color: #776045; }
+					.color-7 { background: #FFAB48; color: #FFAB48; }
+					.color-8 { background: #F2385A; color: #F2385A; }
+				</style>
 				<ul class="color-tool">
-					<li class="color-1"><div class="drag-element" data-color="#333"><div class="drop color-1"></div><i class="drop-helper-1 color-1"></i><i class="drop-helper-2 color-1"></i><i class="drop-helper-3 color-1"></i><i class="drop-helper-4 color-1"></i></div></li>
-					<li class="color-2"><div class="drag-element" data-color="#f0f0f0"><div class="drop color-2"></div><i class="drop-helper-1 color-2"></i><i class="drop-helper-2 color-2"></i><i class="drop-helper-3 color-2"></i><i class="drop-helper-4 color-2"></i></div></li>
-					<li class="color-3"><div class="drag-element" data-color="#c0c3d5"><div class="drop color-3"></div><i class="drop-helper-1 color-3"></i><i class="drop-helper-2 color-3"></i><i class="drop-helper-3 color-3"></i><i class="drop-helper-4 color-3"></i></div></li>
-					<li class="color-4"><div class="drag-element" data-color="#5FA1E0"><div class="drop color-4"></div><i class="drop-helper-1 color-4"></i><i class="drop-helper-2 color-4"></i><i class="drop-helper-3 color-4"></i><i class="drop-helper-4 color-4"></i></div></li>
-					<li class="color-5"><div class="drag-element" data-color="#C1D5C0"><div class="drop color-5"></div><i class="drop-helper-1 color-5"></i><i class="drop-helper-2 color-5"></i><i class="drop-helper-3 color-5"></i><i class="drop-helper-4 color-5"></i></div></li>
-					<li class="color-6"><div class="drag-element" data-color="#47AE73"><div class="drop color-6"></div><i class="drop-helper-1 color-6"></i><i class="drop-helper-2 color-6"></i><i class="drop-helper-3 color-6"></i><i class="drop-helper-4 color-6"></i></div></li>
-					<li class="color-7"><div class="drag-element" data-color="#EAE7C4"><div class="drop color-7"></div><i class="drop-helper-1 color-7"></i><i class="drop-helper-2 color-7"></i><i class="drop-helper-3 color-7"></i><i class="drop-helper-4 color-7"></i></div></li>
-					<li class="color-8"><div class="drag-element" data-color="#FB6964"><div class="drop color-8"></div><i class="drop-helper-1 color-8"></i><i class="drop-helper-2 color-8"></i><i class="drop-helper-3 color-8"></i><i class="drop-helper-4 color-8"></i></div></li>
+					<li class="color-6"><div class="drag-element" data-color="#776045" data-x="0" data-y="0" style="transform: none; z-index: 1;"><div class="drop color-6"></div><i class="drop-helper-1 color-6"></i><i class="drop-helper-2 color-6"></i><i class="drop-helper-3 color-6"></i><i class="drop-helper-4 color-6"></i></div></li>
+
+					<li class="color-1"><div class="drag-element" data-color="#A8C545" data-x="0" data-y="0" style="transform: none; z-index: 1;"><div class="drop color-1"></div><i class="drop-helper-1 color-1"></i><i class="drop-helper-2 color-1"></i><i class="drop-helper-3 color-1"></i><i class="drop-helper-4 color-1"></i></div></li>
+					
+					<li class="color-2"><div class="drag-element" data-color="#fff" data-x="0" data-y="0" style="transform: none; z-index: 1;"><div class="drop color-2"></div><i class="drop-helper-1 color-2"></i><i class="drop-helper-2 color-2"></i><i class="drop-helper-3 color-2"></i><i class="drop-helper-4 color-2"></i></div></li>
+					
+					<li class="color-3"><div class="drag-element" data-color="#DFD3B6" data-x="0" data-y="0" style="transform: none; z-index: 1;"><div class="drop color-3"></div><i class="drop-helper-1 color-3"></i><i class="drop-helper-2 color-3"></i><i class="drop-helper-3 color-3"></i><i class="drop-helper-4 color-3"></i></div></li>
+					
+					<li class="color-4"><div class="drag-element" data-color="#0092b2" data-x="0" data-y="0" style="transform: none; z-index: 1;"><div class="drop color-4"></div><i class="drop-helper-1 color-4"></i><i class="drop-helper-2 color-4"></i><i class="drop-helper-3 color-4"></i><i class="drop-helper-4 color-4"></i></div></li>
+					
+					<li class="color-5"><div class="drag-element" data-color="#C1D5C0" data-x="0" data-y="0" style="transform: none; z-index: 1;"><div class="drop color-5"></div><i class="drop-helper-1 color-5"></i><i class="drop-helper-2 color-5"></i><i class="drop-helper-3 color-5"></i><i class="drop-helper-4 color-5"></i></div></li>
+					
+					<li class="color-7"><div class="drag-element" data-color="#FFAB48" data-x="0" data-y="0" style="transform: none; z-index: 1;"><div class="drop color-7"></div><i class="drop-helper-1 color-7"></i><i class="drop-helper-2 color-7"></i><i class="drop-helper-3 color-7"></i><i class="drop-helper-4 color-7"></i></div></li>
+					
+					<li class="color-8"><div class="drag-element" data-color="#F2385A"><div class="drop color-8"></div><i class="drop-helper-1 color-8"></i><i class="drop-helper-2 color-8"></i><i class="drop-helper-3 color-8"></i><i class="drop-helper-4 color-8"></i></div></li>
 					<li><button class="reset-button" title="Reser colors">Reset colors</button></li>
 				</ul>
 			</div>
